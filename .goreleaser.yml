@@ -1,0 +1,35 @@
+# GoReleaser — konfigurasi MINIMAL untuk dapodik-sdk-go.
+#
+# PENTING: ini adalah LIBRARY (paket Go), bukan binary/aplikasi.
+# Karena itu TIDAK ADA build binary di sini: `builds` di-skip, dan
+# GoReleaser hanya dipakai untuk membuat GitHub Release (tag + catatan
+# rilis dari CHANGELOG/riwayat commit) saat tag v* di-push.
+# Jangan tambahkan `builds` dengan main package — tidak ada main package
+# di repo ini (hanya examples/quickstart yang berupa command demonstrasi
+# dan sengaja tidak dirilis sebagai binary).
+version: 2
+
+project_name: dapodik-sdk-go
+
+builds:
+  - skip: true
+
+# Tanpa binary, tidak ada archive/checksum yang perlu dibuat.
+archives:
+  - format: none
+
+checksum:
+  disable: true
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - "^docs:"
+      - "^test:"
+      - "^chore:"
+
+release:
+  draft: false
+  prerelease: auto
+  name_template: "v{{ .Version }}"

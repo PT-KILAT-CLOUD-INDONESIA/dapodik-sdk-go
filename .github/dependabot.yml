@@ -1,0 +1,22 @@
+# Dependabot — pola yang sama seperti repo Python aslinya
+# (dapodik-sdk-python/.github/dependabot.yml), disesuaikan ke Go:
+# "pip" diganti "gomod". Jadwal mingguan, batas 5 PR terbuka per ekosistem.
+version: 2
+updates:
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "07:00"
+      timezone: "Asia/Jakarta"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "07:00"
+      timezone: "Asia/Jakarta"
+    open-pull-requests-limit: 5
