@@ -16,7 +16,7 @@ Setiap pengguna atau pengembang yang memanfaatkan paket **`dapodik-sdk-go`** diw
 ## 🚨 Melaporkan Kerentanan Keamanan (Reporting a Vulnerability)
 
 Jika Anda menemukan potensi celah keamanan (*vulnerability*) pada SDK ini:
-1. Hubungi pengembang melalui email: [inisaya@ardianryan.com](mailto:inisaya@ardianryan.com) atau Instagram [@smansagewithai](https://www.instagram.com/smansagewithai/) — pemegang hak cipta SDK aslinya (Python). Untuk port Go ini, Anda juga dapat membuka issue privat/security advisory di repositori `kilat-cloud/dapodik-sdk-go`.
+1. Hubungi pengembang melalui email: [inisaya@ardianryan.com](mailto:inisaya@ardianryan.com) atau Instagram [@smansagewithai](https://www.instagram.com/smansagewithai/) — pemegang hak cipta SDK aslinya (Python). Untuk port Go ini, Anda juga dapat membuka issue privat/security advisory di repositori `PT-KILAT-CLOUD-INDONESIA/dapodik-sdk-go`.
 2. Berikan rincian langkah reproduksi celah keamanan.
 3. Tim pemelihara akan merespons laporan dalam waktu maksimal **2 x 24 jam**.
 

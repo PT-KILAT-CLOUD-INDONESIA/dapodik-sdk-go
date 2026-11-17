@@ -1,6 +1,6 @@
 # dapodik-sdk-go
 
-> **Dibuat dan dirawat oleh [Kilat Cloud](https://github.com/kilat-cloud) — PT Kilat Cloud Indonesia.**
+> **Dibuat dan dirawat oleh [Kilat Cloud](https://github.com/PT-KILAT-CLOUD-INDONESIA) — PT Kilat Cloud Indonesia.**
 > Port Go resmi dari Kilat Cloud atas [`dapodik-sdk` Python v1.1.0](https://github.com/ardianryan/dapodik-sdk-python) karya **Ryan Ardian & SMA Negeri 1 Gedeg** (lisensi MIT-NC, atribusi dipertahankan — lihat [LICENSE](LICENSE)).
 
 SDK Go modern, ringan (**zero external dependencies** — stdlib saja), untuk integrasi penarikan data **WebService Dapodik Kemendikdasmen** (port 5774).
@@ -13,7 +13,7 @@ Port Go dari [`dapodik-sdk` Python v1.1.0](https://github.com/ardianryan/dapodik
 
 ## 🏢 Dibuat oleh Kilat Cloud
 
-SDK ini dibuat dan dirawat oleh **[Kilat Cloud](https://github.com/kilat-cloud)** (PT Kilat Cloud Indonesia) sebagai port Go dari `dapodik-sdk` Python v1.1.0 karya **Ryan Ardian & SMA Negeri 1 Gedeg**. Kode asli Python tetap diakui penuh — lisensi [MIT-NC](LICENSE) dan atribusi pemegang hak cipta dipertahankan apa adanya. Pertanyaan, laporan bug, dan permintaan fitur silakan lewat [Issues](https://github.com/kilat-cloud/dapodik-sdk-go/issues) repo ini.
+SDK ini dibuat dan dirawat oleh **[Kilat Cloud](https://github.com/PT-KILAT-CLOUD-INDONESIA)** (PT Kilat Cloud Indonesia) sebagai port Go dari `dapodik-sdk` Python v1.1.0 karya **Ryan Ardian & SMA Negeri 1 Gedeg**. Kode asli Python tetap diakui penuh — lisensi [MIT-NC](LICENSE) dan atribusi pemegang hak cipta dipertahankan apa adanya. Pertanyaan, laporan bug, dan permintaan fitur silakan lewat [Issues](https://github.com/PT-KILAT-CLOUD-INDONESIA/dapodik-sdk-go/issues) repo ini.
 
 ## ⚠️ Kepatuhan UU Perlindungan Data Pribadi (UU PDP No. 27/2022)
 
@@ -24,7 +24,7 @@ Aplikasi Dapodik memproses **Data Pribadi Siswa dan Guru** (NIK, NISN, nomor kon
 Membutuhkan Go 1.23+ (range-over-func untuk iterator streaming).
 
 ```bash
-go get github.com/kilat-cloud/dapodik-sdk-go
+go get github.com/PT-KILAT-CLOUD-INDONESIA/dapodik-sdk-go
 ```
 
 Tidak ada dependensi eksternal — hanya Go standard library.
@@ -39,7 +39,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/kilat-cloud/dapodik-sdk-go"
+	"github.com/PT-KILAT-CLOUD-INDONESIA/dapodik-sdk-go"
 )
 
 func main() {
