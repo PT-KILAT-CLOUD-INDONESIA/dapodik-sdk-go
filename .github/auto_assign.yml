@@ -1,5 +1,0 @@
-# Auto-assign new issues to the repository owner.
-# https://github.com/kentaro-m/auto-assign-action
-addAssignees:
-  issue:
-    - kilat-cloud
