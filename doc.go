@@ -2,7 +2,7 @@
 // WebService Dapodik Kemendikdasmen (port 5774).
 //
 // Dibuat dan dirawat oleh Kilat Cloud (PT Kilat Cloud Indonesia,
-// https://github.com/kilat-cloud).
+// https://github.com/PT-KILAT-CLOUD-INDONESIA).
 //
 // Pustaka ini adalah port Go dari dapodik-sdk Python v1.1.0 karya
 // Ryan Ardian & SMA Negeri 1 Gedeg (https://github.com/ardianryan/dapodik-sdk-python),

@@ -16,7 +16,7 @@ package main
 import (
 	"context"
 
-	"github.com/kilat-cloud/dapodik-sdk-go"
+	"github.com/PT-KILAT-CLOUD-INDONESIA/dapodik-sdk-go"
 )
 
 func main() {
